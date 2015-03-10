@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="macros.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="rtx_predefines.h" />
+    <ClInclude Include="rtx_tweaker.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tray_icon_helper.h" />
+    <ClInclude Include="tray_icon_menu.h" />
+    <ClInclude Include="main_dialog.h" />
+    <ClInclude Include="blacklist.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="rtx_predefines.cpp" />
+    <ClCompile Include="rtx_tweaker.cpp" />
+    <ClCompile Include="tray_icon_helper.cpp" />
+    <ClCompile Include="tray_icon_menu.cpp" />
+    <ClCompile Include="main_dialog.cpp" />
+    <ClCompile Include="blacklist.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rtx_tweaker.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\rtx_tweaker.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\rtx_tweaker.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
